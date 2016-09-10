@@ -1,0 +1,6 @@
+[package]
+name = "hello-iron"
+version = "0.1.0"
+authors = ["Jonathan <jonacom@lissismore.com>"]
+
+[dependencies]
