@@ -8,7 +8,7 @@ fn main() {
         Ok(Response::with((status::Ok, "Hello World!")))
     }
 
+    println!("Server running on localhost:3000");
     Iron::new(hello_world).http("localhost:3000").unwrap();
-    println!("On 3000");
 }
 
