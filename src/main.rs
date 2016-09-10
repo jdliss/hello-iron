@@ -20,4 +20,3 @@ fn main() {
     println!("Server running on localhost:3000");
     Iron::new(hello_world).http("localhost:3000").unwrap();
 }
-
