@@ -5,3 +5,4 @@ authors = ["Jonathan <jonacom@lissismore.com>"]
 
 [dependencies]
 iron = "*"
+rustc-serialize = "*"
